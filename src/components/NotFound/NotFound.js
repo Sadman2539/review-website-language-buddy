@@ -3,7 +3,7 @@ import './NotFound.css'
 const NotFound = () => {
     return (
         <div>
-            <h1>SOrry! Not found</h1>
+            <img src="../../images/not-found.png" alt="" />
         </div>
     );
 };

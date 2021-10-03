@@ -2,8 +2,8 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 import Navbar from 'react-bootstrap/Navbar'
-import { Container, Form, FormControl, Nav, Stack } from 'react-bootstrap';
-import Button from '@restart/ui/esm/Button';
+import { Button, Container, Form, FormControl, Nav, Stack } from 'react-bootstrap';
+
 const Header = () => {
     return (
         <div>
@@ -37,13 +37,13 @@ const Header = () => {
                                     About
                                 </NavLink>
                                 <NavLink
-                                    to="/services"
+                                    to="/courses"
                                     activeStyle={{
                                         fontWeight: "bold",
                                         color: "red"
                                     }}
                                 >
-                                    Services
+                                    Courses
                                 </NavLink>
                                 <NavLink
                                     to="/blog"
@@ -57,13 +57,7 @@ const Header = () => {
                             </Stack>
                         </Nav>
                         <Form className="d-flex">
-                            <FormControl
-                                type="search"
-                                placeholder="Search"
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
+                            <Button variant="success">Sign Up</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Services from './components/Services/Services';
 import Courses from './components/Courses/Courses';
 import Blog from './components/Blog/Blog';
 import NotFound from './components/NotFound/NotFound';
@@ -34,9 +33,6 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About></About>
-            </Route>
-            <Route exact path="/services">
-              <Services></Services>
             </Route>
             <Route exact path="/courses">
               <Courses></Courses>
