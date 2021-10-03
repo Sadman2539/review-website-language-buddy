@@ -1,0 +1,17 @@
+.banner{
+    display: flex;
+    height: 200px;
+    background-color: rgb(235, 215, 253);
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.video-section{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.videoText{
+    padding: 20px;
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 # Language Buddy
-## Learn Apply Ask Repeat
+## Website Link [Language Buddy](https://www.google.com)
 ### What we offer
 
 - Exclusive language courses from native teachers
