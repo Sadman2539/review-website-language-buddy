@@ -11,7 +11,7 @@ const Course = (props) => {
                 <Card className="course-card">
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title>{courseName.length === 45 ? courseName : courseName.slice(0, 45)}</Card.Title>
+                        <Card.Title>{courseName.slice(0, 45)}...</Card.Title>
                         <Card.Text>by {author}</Card.Text>
                         <Card.Text> <span><i className="fas fa-user pe-1"></i></span>{enrolled}</Card.Text>
                         {star}<Rating className="ps-2"
