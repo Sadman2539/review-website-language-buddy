@@ -9,12 +9,12 @@ const Article = (props) => {
                 <Card className="course-card">
                     <Card.Img className="article-img" variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title>{title.length === 25 ? title : body.slice(0, 25)}</Card.Title>
+                        <Card.Title>{body.slice(0, 25)}</Card.Title>
                         <Card.Text>
                             by {writer}
                         </Card.Text>
                         <Card.Text>
-                            {body.slice(0, 80)}...
+                            {body.slice(0, 60)}...
                         </Card.Text>
                         <NavLink to="#" >
                             <Button className="regular-btn">
