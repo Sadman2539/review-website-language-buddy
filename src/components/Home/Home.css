@@ -1,3 +1,6 @@
+h1{
+    color: #273044;
+}
 .banner{
     display: flex;
     height: 200px;
@@ -6,18 +9,52 @@
     border-radius: 10px;
     align-items: center;
 }
+.banner-text{
+    
+}
+.banner-img{
+    transition: all 0.5s ease-in-out;
+}
+.banner-img:hover{
+    transform: translateX(-10px);
+}
 .video-section{
     display: flex;
     margin-top: 20px;
     align-items: center;
 }
 .videoText{
-    padding: 20px;
+    padding: 40px;
     margin: 0 auto;
+   
 }
 .courses-section{
     margin: 20px auto;
 }
 .latest-courses{
     margin: 20px 0;
+}
+.regular-btn{
+    background-color: #273044;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.regular-btn:hover{
+color: #273044;
+background-color: #fff;
+border: 1px solid #273044;
+
+}
+
+.courses-heading{
+    padding: 20px 0;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    
+}
+.courses-heading h1{
+    font-size: 2 rem;
 }

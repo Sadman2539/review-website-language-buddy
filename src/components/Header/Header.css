@@ -1,4 +1,30 @@
-NavLink:active{
+.site-name{
+    color: white;
     text-decoration: none;
-    color: red;
+    font-size: 30px;
+    
+}
+
+.navigation{
+    background-color: #273044;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.navigation button{
+    color: white;
+    border: 1px solid white;
+}
+.route {
+    color: white;
+    text-decoration: none;
+    margin-left:40px ;
+    
+
+}
+.route:focus, .route:hover{
+    text-decoration: underline;
+    color: rgb(246,82,10);
+    
 }

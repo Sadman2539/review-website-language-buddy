@@ -1,5 +1,15 @@
+
 .footer-section{
+    background-color:  #273044;
+    color: white;
+
+}
+.footer-contact{
     display: flex;
-    -ms-flex-align: center;
-    justify-content: space-evenly;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact button{
+    border: 1px solid white;
 }

@@ -7,10 +7,12 @@ import Modal from 'react-bootstrap/Modal';
 
 const Header = () => {
     return (
-        <div>
-            <Navbar bg="light" expand="lg">
+        <div className="navigation ">
+            <Navbar expand="lg" >
                 <Container >
-                    <Navbar.Brand href="/">Language Buddy</Navbar.Brand>
+                    <NavLink className="site-name" to="/">
+                        Language Buddy
+                    </NavLink>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -19,46 +21,22 @@ const Header = () => {
                             navbarScroll
                         >
                             <Stack direction="horizontal" gap={4}>
-                                <NavLink
-                                    to="/home"
-                                    activeStyle={{
-                                        fontWeight: "bold",
-                                        color: "red"
-                                    }}
-                                >
+                                <NavLink className="route" to="/home">
                                     Home
                                 </NavLink>
-                                <NavLink
-                                    to="/about"
-                                    activeStyle={{
-                                        fontWeight: "bold",
-                                        color: "red"
-                                    }}
-                                >
+                                <NavLink className="route" to="/about" >
                                     About
                                 </NavLink>
-                                <NavLink
-                                    to="/courses"
-                                    activeStyle={{
-                                        fontWeight: "bold",
-                                        color: "red"
-                                    }}
-                                >
+                                <NavLink className="route" to="/courses">
                                     Courses
                                 </NavLink>
-                                <NavLink
-                                    to="/blog"
-                                    activeStyle={{
-                                        fontWeight: "bold",
-                                        color: "red"
-                                    }}
-                                >
+                                <NavLink className="route" to="/blog">
                                     Blog
                                 </NavLink>
                             </Stack>
                         </Nav>
                         <Form className="d-flex">
-                            <Button variant="success">Sign Up</Button>
+                            <Button className="regular-btn">Sign Up</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>
