@@ -1,5 +1,5 @@
 # Language Buddy
-## Website Link [Language Buddy](https://www.google.com)
+## Website Link [Language Buddy](https://language-buddy.netlify.app/)
 ### What we offer
 
 - Exclusive language courses from native teachers
