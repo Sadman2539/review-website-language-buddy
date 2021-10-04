@@ -23,16 +23,16 @@ const Footer = () => {
                         <h5 className=" mb-3">Connect with us on social medias</h5>
                         <Stack direction="horizontal" gap={4}>
                             <NavLink className="route" to="#">
-                                <i className="fab fa-facebook fa-3x"></i>
+                                <i className="fa fa-facebook-square fa-3x"></i>
                             </NavLink>
                             <NavLink className="route" to="#" >
-                                <i className="fab fa-twitter fa-3x"></i>
+                                <i className="fa fa-twitter-square fa-3x"></i>
                             </NavLink>
                             <NavLink className="route" to="#">
                                 <i className="fab fa-google-plus-g fa-3x"></i>
                             </NavLink>
                             <NavLink className="route" to="#">
-                                <i className="fas fa-user fa-3x"></i>
+                                <i className="fab fa-youtube-square fa-3x"></i>
                             </NavLink>
                         </Stack>
                     </div>

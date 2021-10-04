@@ -13,3 +13,9 @@
 .contact button{
     border: 1px solid white;
 }
+.social-link{
+    transition: 0.8s;
+}
+.social-link i:hover{
+color: red;
+}
