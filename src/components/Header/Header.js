@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 import Navbar from 'react-bootstrap/Navbar'
-import { Button, Container, Form, FormControl, Nav, Stack } from 'react-bootstrap';
-import Modal from 'react-bootstrap/Modal';
+import { Button, Container, Form, Nav, Stack } from 'react-bootstrap';
 
 const Header = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Button, Col, Row } from 'react-bootstrap';
+import { Button, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import banner from '../../images/banner.png'
 import './Home.css'
@@ -20,8 +20,9 @@ const Home = () => {
             {/* welcome banner  */}
             <div className="banner ">
                 <div className="w-50 banner-text">
-                    <h5>Your Help Is One Ask Away</h5>
-                    <h1>Audio, Photo or Write to ask the biggest language community</h1>
+                    <h5>Your question is our concern!</h5>
+                    <h1>Ready to start learning? </h1>
+                    <h1>Sign up now! </h1>
                 </div>
                 <div className='w-50 banner-img'>
                     <img className="w-75" src={banner} alt="" />
@@ -30,7 +31,7 @@ const Home = () => {
             {/* video section  */}
             <div className="video-section">
                 <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OPOZv4LO8wA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OPOZv4LO8wA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <div className="videoText w-50">
                     <h1>Learn Apply Ask & Repeat</h1>
@@ -61,7 +62,7 @@ const Home = () => {
                     <NavLink to="/courses" >
                         <Button className="regular-btn">
                             View All Courses
-                            <i class="fas fa-arrow-right ps-2"></i>
+                            <i className="fas fa-arrow-right ps-2"></i>
                         </Button>
                     </NavLink>
                 </div>

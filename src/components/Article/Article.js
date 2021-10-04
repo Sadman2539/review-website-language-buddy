@@ -19,8 +19,8 @@ const Article = (props) => {
                         <NavLink to="/courses" >
                             <Button className="regular-btn">
                                 Read More
-                                <i class="fas fa-chevron-right ps-2"></i>
-                                <i class="fas fa-chevron-right"></i>
+                                <i className="fas fa-chevron-right ps-2"></i>
+                                <i className="fas fa-chevron-right"></i>
                             </Button>
                         </NavLink>
                     </Card.Body>

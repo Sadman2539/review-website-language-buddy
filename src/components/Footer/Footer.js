@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Button, Form, Stack } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
@@ -24,16 +23,16 @@ const Footer = () => {
                         <h5 className=" mb-3">Connect with us on social medias</h5>
                         <Stack direction="horizontal" gap={4}>
                             <NavLink className="route" to="#">
-                                <i class="fab fa-facebook fa-3x"></i>
+                                <i className="fab fa-facebook fa-3x"></i>
                             </NavLink>
                             <NavLink className="route" to="#" >
-                                <i class="fab fa-twitter fa-3x"></i>
+                                <i className="fab fa-twitter fa-3x"></i>
                             </NavLink>
                             <NavLink className="route" to="#">
-                                <i class="fab fa-google-plus-g fa-3x"></i>
+                                <i className="fab fa-google-plus-g fa-3x"></i>
                             </NavLink>
                             <NavLink className="route" to="#">
-                                <i class="fas fa-user fa-3x"></i>
+                                <i className="fas fa-user fa-3x"></i>
                             </NavLink>
                         </Stack>
                     </div>
@@ -61,7 +60,7 @@ const Footer = () => {
 
             {/* copyright section  */}
             <div className="copyright-section">
-                <p>Language Buddy <i class="fa fa-copyright" aria-hidden="true">All Rights Reserved - 2021 |  Made With <i class="fas fa-heart"></i> by Sadman Sakib</i></p>
+                <p>Language Buddy <i className="fa fa-copyright" aria-hidden="true">All Rights Reserved - 2021 |  Made With <i className="fas fa-heart"></i> by Sadman Sakib</i></p>
             </div>
         </div>
     );

@@ -4,6 +4,10 @@
     font-size: 30px;
     
 }
+.site-name:focus, .site-name:hover{
+    color: rgb(246,82,10);
+    
+}
 
 .navigation{
     background-color: #273044;
@@ -24,7 +28,10 @@
 
 }
 .route:focus, .route:hover{
-    text-decoration: underline;
     color: rgb(246,82,10);
+    
+}
+.route:focus{
+    text-decoration: underline;
     
 }
