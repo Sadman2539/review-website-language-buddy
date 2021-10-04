@@ -16,7 +16,7 @@ const Article = (props) => {
                         <Card.Text>
                             {body.slice(0, 80)}...
                         </Card.Text>
-                        <NavLink to="/courses" >
+                        <NavLink to="#" >
                             <Button className="regular-btn">
                                 Read More
                                 <i className="fas fa-chevron-right ps-2"></i>
