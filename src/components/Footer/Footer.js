@@ -21,17 +21,17 @@ const Footer = () => {
                     {/* social links section  */}
                     <div className="social-link mt-5">
                         <h5 className=" mb-3">Connect with us on social medias</h5>
-                        <Stack direction="horizontal" gap={4}>
-                            <NavLink className="route" to="#">
+                        <Stack className=" social-icons" direction="horizontal" gap={3}>
+                            <NavLink to="#">
                                 <i className="fa fa-facebook-square fa-3x"></i>
                             </NavLink>
-                            <NavLink className="route" to="#" >
+                            <NavLink to="#" >
                                 <i className="fa fa-twitter-square fa-3x"></i>
                             </NavLink>
-                            <NavLink className="route" to="#">
+                            <NavLink to="#">
                                 <i className="fab fa-google-plus-g fa-3x"></i>
                             </NavLink>
-                            <NavLink className="route" to="#">
+                            <NavLink to="#">
                                 <i className="fab fa-youtube-square fa-3x"></i>
                             </NavLink>
                         </Stack>

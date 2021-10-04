@@ -13,8 +13,13 @@
 .contact button{
     border: 1px solid white;
 }
-.social-link{
+.social-icons{
+    display: flex;
+    justify-content: center;
     transition: 0.8s;
+}
+.social-icons i{
+color: white;
 }
 .social-link i:hover{
 color: red;
