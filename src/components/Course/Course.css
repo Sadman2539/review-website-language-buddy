@@ -1,0 +1,7 @@
+.course-card{
+    border: none;
+    box-shadow: 4px 4px 10px gray;
+}
+.course-card:hover{
+    border: 2px solid green;
+}

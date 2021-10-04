@@ -3,7 +3,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
+import banner from '../../images/banner.png'
 import './Home.css'
+import { NavLink } from 'react-router-dom';
 
 
 const Home = () => {
@@ -12,7 +14,7 @@ const Home = () => {
         fetch('./courses.json')
             .then(res => res.json())
             .then(data => setCourses(data))
-    }, [])
+    }, []);
     return (
         <div className="container mt-4">
             {/* welcome banner  */}
@@ -22,7 +24,7 @@ const Home = () => {
                     <h1>Audio, Photo or Write to ask the biggest language community</h1>
                 </div>
                 <div className='w-50'>
-                    <img src="../../logo.svg" alt="" />
+                    <img className="w-75" src={banner} alt="" />
                 </div>
             </div>
             {/* video section  */}
@@ -37,16 +39,16 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* our services section  */}
+            {/* latest courses section  */}
             <div className="courses-section">
                 <div >
                     <h5>Start Now</h5>
                     <h1>Latest Courses</h1>
                 </div>
-                <div>
+                <div className="latest-courses">
                     <Row xs={1} md={4} className="g-4">
                         {
-                            courses.map(course => <Course
+                            courses.slice(0, 8).map(course => <Course
                                 key={course.key}
                                 course={course} ></Course>)
                         }
@@ -55,7 +57,12 @@ const Home = () => {
                     </Row>
 
                 </div>
-                <p>view more courses</p>
+                <div>
+                    <NavLink to="/courses" >
+                        <Button variant="success">View All Courses</Button>
+                    </NavLink>
+                </div>
+
             </div>
         </div>
     );

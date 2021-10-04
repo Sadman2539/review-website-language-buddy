@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div>
+        <div className="container">
             <div>
                 <h1>Who are We</h1>
                 <h3>Language Buddy is a complete platform where you can learn, practice and share your thoughts about languages with people around the world.</h3>

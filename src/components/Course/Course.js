@@ -1,17 +1,18 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 import './Course.css'
 const Course = (props) => {
     const { author, courseName, enrolled, image, price, star } = props.course;
     return (
         <div>
             <Col>
-                <Card>
+                <Card className="course-card">
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title>{courseName}</Card.Title>
+                        <Card.Title>{courseName.slice(0, 50)}...</Card.Title>
                         <Card.Text>by {author}</Card.Text>
                         <Card.Text>Price: {price}</Card.Text>
+                        <Button variant="success">Buy Now</Button>
                     </Card.Body>
                 </Card>
             </Col>

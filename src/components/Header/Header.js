@@ -3,13 +3,14 @@ import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 import Navbar from 'react-bootstrap/Navbar'
 import { Button, Container, Form, FormControl, Nav, Stack } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
 
 const Header = () => {
     return (
         <div>
             <Navbar bg="light" expand="lg">
                 <Container >
-                    <Navbar.Brand href="#">Language Buddy</Navbar.Brand>
+                    <Navbar.Brand href="/">Language Buddy</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav

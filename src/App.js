@@ -13,14 +13,16 @@ import Courses from './components/Courses/Courses';
 import Blog from './components/Blog/Blog';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <div>
+          {/* header section  */}
           <Header></Header>
-
+          {/* body  section  */}
           <Switch>
             <Route exact path="/">
               <Home></Home>
@@ -44,6 +46,9 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+
+          {/* footer section  */}
+          <Footer></Footer>
         </div>
       </Router>
     </div>
